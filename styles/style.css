@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #171815;
+  font-family: "Montserrat", "Lato", "sans-serif";
+  font-style: normal;
+  color: #eeedf0;
+}
+
+/* Header Styling */
+/* Navigation Bar */
+.topnav {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow: hidden;
+}
+nav .icon {
+  display: none;
+}
+/* Navigation Bar - responsive */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+  nav a img {
+    width: 87px;
+    height: 29px;
+  }
+}
+@media (max-width: 768px) {
+  .responsive {
+    position: relative;
+    margin: 20px;
+  }
+  .responsive .icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .responsive ul {
+    float: none;
+    display: block;
+    background-color: #474649bb;
+  }
+  .responsive ul li {
+    display: block;
+    border-radius: 30%;
+  }
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding: 15px;
+}
+@media screen and (max-width: 830px) {
+  li {
+    padding: 8px;
+  }
+}
+nav > ul {
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 32px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 6vw;
+  line-height: 93px;
+  text-align: center;
+  margin-top: 60px;
+  position: relative;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.c-padding {
+  padding: 60px;
+}
+
+.overlap {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 150px;
+  max-width: 80%;
+}
+p {
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 34px;
+  text-align: center;
+  margin-top: 80px;
+  text-shadow: 0px 5px 12px rgba(203, 105, 193, 0.25);
+}
+/* @media (max-width: 650px) {
+  p {
+    margin-top: 40px;
+  }
+} */
+/* Header styling Complete */
+
+/* Section 1 Styling */
+.section-one {
+  background-image: url("/images/zoomx-vaporfly-next-2-mens-road-racing-shoes-glWqfm 11.png"),
+    url("/images/section-one-bg.png");
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: 60%, cover;
+}
+.nike-zoom {
+  margin: 215px 0px;
+  max-width: 100%;
+}
+h2 {
+  padding-top: 20px;
+  margin: 0 20px;
+  font-size: 2.5vw;
+}
+.side {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+  position: relative;
+  bottom: 20px;
+}
+article {
+  margin: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+  position: relative;
+}
+.product {
+  background-image: url("/images/product-bg.png");
+  background-size: cover;
+  margin: 5px;
+  border-radius: 10%;
+  width: 300px;
+  /* height: 300px; */
+}
+.product:hover {
+  box-shadow: 0 5px 10px 0 rgba(203, 105, 193, 0.506);
+}
+.product-img {
+  width: 300px;
+  /* width: 100%; */
+}
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  white-space: normal;
+}
+.price {
+  margin: 20px 0px;
+}
+.scroll {
+  border-radius: 50%;
+  border: none;
+  padding: 20px;
+  background-color: #cb69c1;
+  position: absolute;
+  top: 45%;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vw;
+}
+.foot > div > li {
+  display: block;
+  padding: 0.8vw;
+}
+.foot-txt {
+  font-weight: 800;
+  font-size: 1.5vw;
+  line-height: 25px;
+}
+.foot-ptxt {
+  font-weight: 600;
+  font-size: 1.5vw;
+  line-height: 19px;
+  letter-spacing: 1px;
+
+  color: #cb69c1;
+}
+.social {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 10px;
+}
+/* Responsive */
+@media (max-width: 1025px) {
+  .product {
+    margin: 5px 12px;
+  }
+}
+@media (max-width: 769px) {
+  h1 {
+    margin-top: 0px;
+  }
+  .topnav {
+    margin: 20px 20px 0px 20px;
+  }
+  .c-padding {
+    padding: 7%;
+  }
+  p {
+    margin-top: 10%;
+  }
+  .nike-zoom {
+    margin: 140px 0;
+  }
+
+  .social {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+  }
+  .foot {
+    margin: 5vw;
+  }
+}
+@media (max-width: 597px) {
+  .c-padding {
+    padding: 5%;
+  }
+  p {
+    margin-top: 8%;
+  }
+  h1 {
+    margin-top: -20px;
+  }
+  .line {
+    height: 50%;
+  }
+  .nike-zoom {
+    margin: 115px 0;
+  }
+  .social-logo {
+    width: 75%;
+  }
+  .social {
+    gap: 0;
+  }
+  .foot > div > li {
+    padding: 0.1vw;
+  }
+}
+@media (max-width: 426px) {
+  .c-padding {
+    padding: 3%;
+  }
+  p {
+    margin-top: 5%;
+  }
+  .line {
+    margin: 10px 0;
+  }
+  .nike-zoom {
+    margin: 90px 0;
+  }
+  .product {
+    margin: 5px 25px;
+  }
+}
+@media (max-width: 376px) {
+  .c-padding {
+    padding: 2%;
+  }
+  p {
+    margin-top: 4.5%;
+  }
+  h1 {
+    margin-top: -40px;
+  }
+  .nike-zoom {
+    margin: 65px 0;
+  }
+  .product {
+    margin: 5px 5%;
+    width: 270px;
+  }
+  .product-img {
+    width: 270px;
+  }
+  article {
+    margin: 0 5px;
+  }
+}
+/* .pro-wrapper {
+  position: relative;
+  max-width: 500px;
+  height: 340px;
+  margin: 1em auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+} */
+.products {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+/* .item {
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+} */
+nav ul li :hover,
+nav ul li :active {
+  color: #cb69c1;
+}

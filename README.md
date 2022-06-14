@@ -1,5 +1,6 @@
 # nike-store
-Nike Store - Figma to HTML, CSS, JS
+Nike Store - Figma to HTML, CSS, JS 
+Here is the link to the site published on GitHub Pages - https://amnar23.github.io/nike-store/
 
 This webpage is inspired by Əlisa Musayev's ( [@zoomxrist]( https://www.figma.com/@zoomxrist ) ) Nike Store design from Figma Community. 
 Here is the link to the design https://www.figma.com/community/file/1106963730657749594 

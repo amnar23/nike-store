@@ -122,8 +122,8 @@ p {
 
 /* Section 1 Styling */
 .section-one {
-  background-image: url("/images/zoomx-vaporfly-next-2-mens-road-racing-shoes-glWqfm 11.png"),
-    url("/images/section-one-bg.png");
+  background-image: url("../images/zoomx-vaporfly-next-2-mens-road-racing-shoes-glWqfm 11.png"),
+    url("../images/section-one-bg.png");
   background-repeat: no-repeat;
 
   background-position: center;
@@ -155,7 +155,7 @@ article {
   position: relative;
 }
 .product {
-  background-image: url("/images/product-bg.png");
+  background-image: url("../images/product-bg.png");
   background-size: cover;
   margin: 5px;
   border-radius: 10%;
